@@ -51,10 +51,10 @@ def decode_lsb_image(encoded_image_path, output_path):
     print("LSB image extraction complete.")
 
 # Example usage
-base_image_path = "carrier.png"  
-secret_image_path = "hidden.png"  
-encoded_image_path = "encoded_image_with_secret.png"  
-decoded_image_path = "decoded_hidden_image.png"  
+base_image_path = ""C:\Users\Ajai Paul\Downloads\cover image.png""  
+secret_image_path = ""C:\Users\Ajai Paul\Downloads\secret image.png""  
+encoded_image_path = ""C:\Users\Ajai Paul\Downloads\encoded image.png""  
+decoded_image_path = "decoded mage.png"  
 
 # Encode the secret image into the base image
 encode_lsb_image(base_image_path, secret_image_path, encoded_image_path)
